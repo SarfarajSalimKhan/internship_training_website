@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Home Page</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/jpeg" href="favicon.jpeg" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <a href="#html">HTML</a>
+            <a href="#http">HTTP</a>
+            <a href="#css">CSS</a>
+        </header>
+        <h1 align="center" style="color: firebrick; text-transform: capitalize;">Welcome to my internship training course</h1>
+        <div id="html">
+            <h2>HTML</h2>
+            <p>HyperText Markup Language</p>
+            <ul>
+                <li>Standard markup language</li>
+            </ul>
+            <h2>Features of HTML</h2>
+            <ul>
+                <li>HTML is highly flexible and simple</li>
+		<li>Support on almost every browser</li>
+		<li>User friendly</li>
+            </ul>
+<h2>Disadvantages of HTML</h2>
+<ul>
+<li>Static page</li>
+<li>Lots of code</li>
+<li>Security not good</li>
+</ul>
+<h2>History of HTML</h2>
+<table border=1>
+<thead>
+<tr>
+<th>Year</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1989</td>
+<td>GML (Generalised Markup Language)</td>
+</tr>
+<tr>
+<td>1991</td>
+<td>SGML (Standard Generalised Markup Language)</td>
+</tr>
+<tr>
+<td>1994</td>
+<td>HTML</td>
+</tr>
+<tr>
+<td>2008</td>
+<td>HTML5</td>
+</tr>
+<tr>
+<td>2016</td>
+<td>HTML5.1</td>
+</tr>
+</tbody>
+</table>
+<h2>Tag</h2>
+<p>Text placed between '<' and '>' is called as tag</p>
+<p>Example: <code>&lt;html&gt;</code></p>
+<h2>Types of tag</h2>
+<ul>
+<li>Pair (<code>&lt;&gt;</code> <code>&lt;/&gt;</code>)</li>
+<p>The tags that have both opening and closing tags are called as paired tags.</p>
+<p>Example:</p>
+<ul>
+<li><code>&lt;html&gt;</code> <br /> &nbsp;&nbsp;&nbsp; ... <br /> <code>&lt;/html&gt;</code></li>
+<li><code>&lt;body&gt;</code> <br /> &nbsp;&nbsp;&nbsp; ... <br /> <code>&lt;/body&gt;</code></li>
+</ul>
+<li>Single (<code>&lt;/&gt;</code> / <code>&lt;/&gt;</code>)</li>
+</ul>
+<p>Note: closing tags start with '/'</p>
+<h2>Non-paired tags</h2>
+<ul>
+<li>The tags that have only opening tag but no closing tag are called as non-paired tags</li>
+<li>Also called as self closed tags or forcefully tags or empty tags or singular tags</li>
+<p>Example:</p>
+<ul>
+<li>Break tag (line break)</li>
+<ul>
+<li><code>&lt;br&gt;</code> or <code>&lt;br/&gt;</code></li>
+</ul>
+<li>Horizontal rule (horizontal line)</li>
+<ul>
+<li><code>&lt;hr&gt;</code> or <code>&lt;hr/&gt;</code></li>
+</ul>
+<li>Image tag</li>
+<ul>
+<li><code>&lt;img&gt;</code> or <code>&lt;img/&gt;</code></li>
+</ul>
+</ul>
+</ul>
+<h2>Structure of HTML</h2>
+<p><code>&lt;html&gt;</code> <br /> &nbsp;&nbsp;&nbsp;&nbsp; <code>&lt;head&gt;</code> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<code>&lt;title&gt;</code> <code>&lt;/title&gt;</code> <br /> &nbsp;&nbsp;&nbsp;&nbsp; <code>&lt;/head&gt;</code> <br /> &nbsp;&nbsp;&nbsp;&nbsp;
+<code>&lt;body&gt;</code> <code>&lt;/body&gt;</code> <br /> <code>&lt;/html&gt;</code></p>
+<h2>Working with HTML</h2>
+<ul>
+<li>Open any text editor for example Notepad++, Sublime Text, etc</li>
+<li>Save this file with any name and extension '.html' or '.htm' for example 'index.html'</li>
+<li>Run above file in any web browser for example MS Internet Explorer, MS Edge, Google Chrome etc</li>
+</ul>
+<p>Note: HTML is case insensitive means A and a are same</p>
+<h2>Comment</h2>
+<ul>
+<li>Additional information about that code</li>
+<li>Comments are not displayed on web page</li>
+<li><code>&lt;!-- This is comment --&gt;</code></li>
+</ul>
+<h2>Sections in HTML</h2>
+<ol>
+<li>Head</li>
+<li>Body</li>
+</ol>
+<h2><code>&lt;!doctype html&gt;</code></h2>
+<p>It is used to tell web browser that <> are tags</p>
+<ul>
+<li>Head Section</li>
+<ul>
+<li>This section contains root element as <code>&lt;head&gt;</code> tag</li>
+</ul>
+</ul>
+<h2>Paired tag</h2>
+<p>Tag contains following tags:</p>
+<ul>
+<li>Document title</li>
+<ul>
+<li><code>&lt;title&gt;</code></li>
+</ul>
+<li>Link to external document</li>
+<ul>
+<li>&lt;link/&gt;</li>
+</ul>
+<li>Meta information</li>
+<ul>
+<li><code>&lt;meta/&gt;</li>
+</ul>
+<li>Used for styling</li>
+<ul>
+<li><code>&lt;style&gt;</code></li>
+</ul>
+<li>Used to provide script</li>
+<ul>
+<li><code>&lt;script&gt;</code></li>
+</ul>
+</ul>
+<h2><code>&lt;link/&gt;</code></h2>
+<p>Non-paired tag</p>
+<p>Attributes:</p>
+<ul>
+<li>href</li>
+<li>rel</li>
+<li>type</li>
+</ul>
+<p>Example: Displaying favicon</p>
+<ul>
+<li>Graphical image associated with title of web page</li>
+<li>Its size should be 16 X 16 px or 23 X 32 px</li>
+<li><code>&lt;link href="anim01.gif" type="image/ico" rel="ico"&gt;</code></li>
+<li>anim01.gif -> relative path</li>
+</ul>
+<h2>Paths</h2>
+<ul>
+<li>Absolute path</li>
+<ul>
+<li>complete path or full path</li>
+</ul>
+<li>Relative path</li>
+<ul>
+<li><code>&lt;link href="C:\Users\Pictures\" type="image/ico" rel="icon"&gt;</code></li>
+</ul>
+</ul>
+        </div>
+        <div id="http">
+        </div>
+        <div id="css">
+        </div>
+    </body>
+</html>
