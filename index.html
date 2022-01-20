@@ -15,8 +15,8 @@
 	    <a href="#git">GIT</a>
 	    <a href="#bootstrap">BOOTSTRAP</a>
 	    <a href="#javascript">JAVASCRIPT</a>
-        </header>
-        <h1 align="center" style="color: firebrick; text-transform: capitalize;">Welcome to my internship training course</h1>
+        </header> <br>
+        <h1 align="center" style="color: white; text-transform: capitalize;">Welcome to my internship training course</h1>
         <div id="html">
             <h2>HTML</h2>
             <p>HyperText Markup Language</p>
@@ -953,6 +953,260 @@
 	</ul>
 	</ol>
 	<p>Note: Download and install Visual Studio Code</p> 
+	<h2>CSS syntax (rule-set)</h2>
+	<ul>
+	<li>CSS syntax is selector and declaration block</li>
+	<li>The selector points to the HTML element you want to style</li>
+	<li>Each declaration includes CSS property and value pair</li>
+	<li>Properties and  values are separated by colon(:)</li>
+	<li>Each property and value separated by semicolon(;)</li>
+	<li>For Example</li>
+	<ul>
+	<li>
+	<p>h1 <br/> { <br/> color: red; <br/> font-size: 12px; <br/> } <br/> where</p>
+	<p>h1 is a selector</p>
+	<p>color is property</p>
+	<p>red is value</p>
+	<p>font-size is property</p>
+	<p>12px is value</p>
+	</li>
+	</ul>
+	</ul>
+	<h2>CSS selectors</h2>
+	<ul>
+	<li>CSS selectors are used to select the contents you want to style</li>
+	<li>Types</li>
+	<ul>
+	<li>Element selector</li>
+	<li>Id selector</li>
+	<li>Class selector</li>
+	<li>Universal selector</li>
+	<li>Group selector</li>
+	</ul>
+	</ul>
+	<h2>Element selector</h2>
+	<p>the element selector selects the HTML element by name</p>
+	<p>Syntax</p>
+	<p>element <br/> { <br/> style1; <br/> style2; <br/> ... <br/> }</p>
+	<p>p <br/> { <br/> text-align: center; <br/> color: blue; <br/> }</p>
+	<h2>Id selector</h2>
+	<ul>
+	<li>it uses id attribute of HTML element</li>
+	<li>to select a selector with specific id (#) is used</li>
+	<li>Syntax</li>
+	<ul>
+	<li>#id <br/> { <br/> style1; <br/> style2; <br/> ... <br/> }</li>
+	<li>#warning <br/> { <br/> color: orange; <br/> }</li>
+	</ul>
+	</ul>
+	<h2>Class selector</h2>
+	<ul>
+	<li>the class selector selects HTML elements with specific class attribute</li>
+	<li>it is used with a "period" symbol (.dot) followed by classname</li>
+	<li>Syntax</li>
+	<ul>
+	<li>.class_name <br/> { <br/> style1; <br/> style2; <br/> ... <br/> }</li>
+	<li>Example: <br/> .cool <br/> { <br/> text-align: right; <br/> color: #002366; <br/> }</li>
+	</ul>
+	</ul>
+	<h2>Class selector for specific element</h2>
+	<p>if you want to specify only one specific element should be affected then you should use element name with class name</p>
+	<p>h1.cool <br/> { <br/> ... <br/> }</p>
+	<h2>Universal selector</h2>
+	<ul>
+	<li>The universal selector is used as wildcard selector</li>
+	<li>It selects all elements in page</li>
+	<li>It is denoted by "*" symbol</li>
+	<li>* <br/> { <br/> style1; <br/> style2; <br/> ... <br/> }</li>
+	</ul>
+	<h2>Group selector</h2>
+	<ul>
+	<li>Group selector is used to select all elements with same style definition commas are used to separate selectors in grouping</li>
+	<li>Example: <br/> h2 <br/> { <br/> text-align: center; <br/> color: maroon; <br/> }</li>
+	<li>h3 <br/> { <br/> text-align: center; <br/> color: maroon <br/> }</li>
+	<li>h1, h2 <br/> { <br/> text-align: center; <br/> color: maroon <br/> }</li>
+	</ul>
+	<h2>CSS colors</h2>
+	<p>Colors are specified using predefined color names or color values</p>
+	<p>Color values</p>
+	<ul>
+	    <li>RGB -> Red, Green, Blue</li>
+	    <li>RGBA -> Red, Green, Blue, Alpha</li>
+	    <li>HSL -> Hue, Saturation, Lightness</li>
+	    <li>HSLA -> Hue, Saturation, Lightness, Alpha</li>
+	    <li>HEX -> Hexadecimal numbers</li>
+	    <li>Alpha -> Transparency <br/> 0 -> Transparent <br/> 1 -> Not Transparent</li>
+	</ul>
+	<h2>CSS text formatting</h2>
+	<ul>
+	    <li>color</li>
+	    <ul>
+	        <li>color property is used to set color of text</li>
+	    </ul>
+	    <li>text alignment</li>
+	    <ul>
+	        <li>"text-align" property is used to set horizontal alignment of text</li>
+	        <li>Values are left, right, center, justify</li>
+	        <li>Example: <br /> text-align: center; <br /> text-align: left; // start <br /> text-align: right; // end <br /> text-align: justify;</li>
+	    </ul>
+	</ul>
+	<h2>Direction</h2>
+	<ul>
+	    <li>it is used to change direction of text</li>
+	    <li> for example left to right (ltr) or right to left(rtl)</li>
+	    <li>unicode-bidi: bidi-override used to handle bidirections of text</li>
+	</ul>
+	<h2>Vertical text</h2>
+	<ul>
+	<li>writing-mode: vertical-lr</li>
+	<li> writing-mode: vertical-rl</li>
+	</ul>
+	<h2>Text Decoration</h2>
+	<ul>
+	<li>text-decoration is used to set or remove text-decoration</li>
+	<li>for example underline, overline, line-through</li>
+	<li>text-decoration: underline;</li>
+	<li>text-decoration: overline;</li>
+	<li>text-decoration: line-through</li>
+	<li>text-decoration: none</li>
+	</ul>
+	<h2>Text Shadow</h2>
+	<ul>
+	<li>"text-shadow" property adds shadow effects to text</li>
+	<li>text-shadow: x_offset, y_offset, blur, color;</li>
+	<li><b>Multiline Text Shadown</b></li>
+	<ul>
+	<li>text-shadow: shadow1, shadow2, shadow3, ...;</li>
+	</ul>
+	</ul>
+	<h2>CSS Fonts</h2>
+	<ul>
+	<li>font-family: "Kunstler Scripts";</li>
+	<li>font-weight: normal <br /> font-weight: bold <br /> font-weight: italic <br /> font-weight: italic <br /> Note: value can be number from 0 to 900</li>
+	<li>font-variant: normal <br /> font-variant: small-caps; // small to capital or capital to bigger <br /></li>
+	<li>font-size: px or em (1em = 16px) <br /> 10vw -> viewport width (responsive design)</li>
+	</ul>
+	<h2>CSS Backgrounds</h2>
+	<ul>
+	<li>"background-color" -> specifies background color of element</li>
+	<li>"background-image" -> adds image to the background <br /> background-image: url();</li>
+	<li>"background-repeat" -> repeats images either in horizontal direction or in vertical direction or no-repeat</li>
+	<li>"background-position" -> combination of right / left / top / bottom (atleast 2 values)</li>
+	<li>"background-attachment" -> specifies image should be fixed or scrolling</li>
+	<ul>
+	<li>background-attachment: fixed; // not fixed with page</li>
+	<li>background-attachment: scroll; // fixed with page</li>
+	</ul>
+	<li>"background-size" -> specifies size of background</li>
+	<ul>
+	<li>background-size: 100px 15px; <br /> background-size: contain; <br /> background-size: cover;</li>
+	</ul>
+	</ul>
+	<h2>CSS gradient backgrounds</h2>
+	<ol>
+	<li><b>Linear gradient</b></li>
+	<ul>
+	<li>background: linear-gradient(direction, color_stop1, color_stop2, color_stop3, ...);</li>
+	<li>direction: to right <br /> to left <br /> to bottom <br /> to top <br /> to right bottom <br /> ...</li>
+	<li>background: linear-gradient(90 deg, color_stop1, color_stop2, color_stop3, ...); // 90 deg, 180 deg</li>
+	<li>Note: Minimum 2 color stops required</li>
+	</ul>
+	<li><b>Radial gradient</b></li>
+	<ul>
+	<li>background: radial-gradient(shape, color_stop1, color_stop2, color_stop3, ...);</li>
+	<li>shape -> circle or ellipse</li>
+	</ul>
+	</ol> 
+	<h2>Text Transformation</h2>
+	<ul>
+	<li>"text-tranform" property is used to specify all characters as upper case or lowercase or capitalize each word</li>
+	<li>text-tranform: uppercase;</li>
+	<li>text-transform: lowercase;</li>
+	<li>text-transform: capitalize;</li>
+	</ul>
+	<h2>Text spacing</h2>
+	<ul>
+	<li>"text-indent" property is used to specify indentation of first line of text</li>
+	<li>text-indent: 50px;</li>
+	</ul>
+	<h2>Letter spacing</h2>
+	<ul>
+	<li>"letter-spacing" property is used to specify space between characters in text</li>
+	<li>text-spacing: 3px;</li>
+	<li>text-spacing: 0px; // default</li>
+	<li>text-spacing: -3px; // default</li>
+	</ul>
+	<h2>Line spacing</h2>
+	<ul>
+	<li>"line-height" property is used to specify vertical spacing between lines</li>
+	<li>unit -> line</li>
+	</ul>
+	<h2>Word spacing</h2>
+	<ul>
+	<li>"word-spacing" property is used to specify the space between words</li>
+	<li>default value is 0px</li>
+	</ul>
+	<h2>White space</h2>
+	<ul>
+	<li>"white-space" property specifies how white space inside an element is handled</li>
+	<li>value is nowrap -> the sequence of  white space collapsed into a single white space</li>
+	<li>the text continues the same line until <code>&lt;br&gt;</code> tag</li>
+	<li>normal -> text will wrap when necessary</li>
+	</ul>
+	<h2>CSS Borders</h2>
+	<li>"border" property specifies border for an element</li>
+	<li>2D borders</li>
+	<ul>
+	<li>border-style: dotted;</li>
+	<li>border-style: solid;</li>
+	<li>border-style: dashed;</li>
+	<li>border-style: double;</li>
+	</ul>
+	<li>3D borders</li>
+	<ul>
+	<li>border-style: groove;</li>
+	<li>border-style: ridge;</li>
+	<li>border-style: inset;</li>
+	<li>border-style: outset;</li>
+	</ul>
+	<li>No borders</li>
+	<ul>
+	<li>border-style: none;</li>
+	<li>border-style: hidden;</li>
+	</ul>
+	<li>mixed borders</li>
+	<ul>
+	<li>border-style: dashed double solid dotted;</li>
+	</ul>
+	<li>"border-width" specifies width of border</li>
+	<ul>
+	<li>border-width: number;</li>
+	<li>border-width: thin;</li>
+	<li>border-width: medium;</li>
+	<li>border-width: thick;</li>
+	</ul>
+	<li>border-color: any color;</li>
+	<li>border sides can apply specific styles to specific border</li>
+	<ul>
+	<li>border, border-left, border-right, border-bottom, border-top</li>
+	</ul>
+	<li>Rounded corners</li>
+	<ul>
+	<li>border-radius: pixels;</li>
+	</ul>
+	<li>border-image: url();</li>
+	<li>border-image-source ->  source of image</li>
+	<li>border-image-slice -> used to slice image</li>
+	<li>border-image-width -> used to set width of image</li>
+	<li>border-image-repeat -> round, repeat, stretch</li>
+	</ul>
+	<h2>CSS Outline</h2>
+	<ul>
+	<li>same as that of border</li>
+	<li>sides, radius, image are not supported</li>
+	<li>builtin comes after border</li>
+	<li>outline-style: ridge; <br /> outline-width <br /> outline-color</li>
+	</ul>
         </div>
 	<div id="git">
 	<h2>GIT</h2>
