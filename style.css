@@ -9,7 +9,7 @@ text-align: center;
 text-decoration: none;
 padding: 25px 20px;
 margin-top: 10px;
-margin-left: 100px;
+margin-left: 70px;
 border-radius: 5px;
 text-shadow: 1px 2px 1px blue;
 }
@@ -26,15 +26,34 @@ margin: auto;
 background: linear-gradient(to right top, red, black);
 border-top-right-radius: 10px;
 border-bottom-left-radius: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 h2 {
+margin: auto;
 width: fit-content;
 color: white;
 background: linear-gradient(to left bottom, blue, maroon);
 border-radius: 2px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 5px;
 }
-p, ul, ol, table, li {
+table {
 width: fit-content;
 background: linear-gradient(to right top, black, blue);
 color: white;
+}
+#html_section, #http_section, #css_section, #git_section, #bootstrap_section {
+background: linear-gradient(to right top, tomato, maroon, black, teal, darkmagenta);
+margin-top: 100px;
+margin-bottom: 100px;
+}
+table {
+border-collapse: collapse;
+}
+th, td {
+padding: 5px;
 }
